@@ -1,0 +1,15 @@
+<h1><%= @sub.title %></h1>
+<p><%= @sub.description %></p>
+
+<%= link_to 'Edit Sub', edit_user_sub_url(@sub) %>
+<%= link_to 'Add Post', new_sub_post_url(@sub) %>
+<br>
+
+<% @sub.posts.each do |post| %>
+  <ul>
+    <%= link_to post.title, post_url(post) %>
+    <% if current_user.id == post.author_id %>
+      <%= button_to "Delete Post", post_url(post), method: :delete %>
+    <% end %>
+  </ul>
+<% end %>

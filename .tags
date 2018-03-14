@@ -1,0 +1,27 @@
+PostsController	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	class	line:1
+new	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/posts_controller.rb	/^  def new$/;"	method	line:6	class:PostsController
+create	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/posts_controller.rb	/^  def create$/;"	method	line:11	class:PostsController
+edit	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/posts_controller.rb	/^  def edit$/;"	method	line:39	class:PostsController
+update	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/posts_controller.rb	/^  def update$/;"	method	line:43	class:PostsController
+show	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/posts_controller.rb	/^  def show$/;"	method	line:54	class:PostsController
+destroy	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/posts_controller.rb	/^  def destroy$/;"	method	line:58	class:PostsController
+post_params	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/posts_controller.rb	/^  def post_params$/;"	method	line:66	class:PostsController
+PostSub	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/models/post_sub.rb	/^class PostSub < ApplicationRecord$/;"	class	line:1
+CreateComments	/Users/appacademy/Desktop/W5D2/reddit_on_rails/db/migrate/20180313231516_create_comments.rb	/^class CreateComments < ActiveRecord::Migration[5.1]$/;"	class	line:1
+change	/Users/appacademy/Desktop/W5D2/reddit_on_rails/db/migrate/20180313231516_create_comments.rb	/^  def change$/;"	method	line:2	class:CreateComments
+User	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/models/user.rb	/^class User < ApplicationRecord$/;"	class	line:13
+generate_token	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/models/user.rb	/^  def self.generate_token$/;"	singleton method	line:33	class:User
+find_by_credentials	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/models/user.rb	/^  def self.find_by_credentials(username, password)$/;"	singleton method	line:37	class:User
+password=	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/models/user.rb	/^  def password=(password)$/;"	method	line:42	class:User
+is_password?	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/models/user.rb	/^  def is_password?(password)$/;"	method	line:47	class:User
+reset_token	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/models/user.rb	/^  def reset_token$/;"	method	line:51	class:User
+ensure_token	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/models/user.rb	/^  def ensure_token$/;"	method	line:57	class:User
+Post	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/models/post.rb	/^class Post < ApplicationRecord$/;"	class	line:15
+CommentsController	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/comments_controller.rb	/^class CommentsController < ApplicationController$/;"	class	line:1
+new	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/comments_controller.rb	/^  def new$/;"	method	line:2	class:CommentsController
+create	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/comments_controller.rb	/^  def create$/;"	method	line:6	class:CommentsController
+edit	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/comments_controller.rb	/^  def edit$/;"	method	line:18	class:CommentsController
+update	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/comments_controller.rb	/^  def update$/;"	method	line:22	class:CommentsController
+destroy	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/comments_controller.rb	/^  def destroy$/;"	method	line:32	class:CommentsController
+comment_params	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/controllers/comments_controller.rb	/^  def comment_params$/;"	method	line:38	class:CommentsController
+Comment	/Users/appacademy/Desktop/W5D2/reddit_on_rails/app/models/comment.rb	/^class Comment < ApplicationRecord$/;"	class	line:14
